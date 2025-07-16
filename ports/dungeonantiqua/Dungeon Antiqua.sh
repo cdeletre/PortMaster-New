@@ -30,7 +30,7 @@ mkdir -p "$GAMEDIR/conf"
 bind_directories "$HOME/.config/.pyxel/dungeon-antiqua" "$CONFDIR"
 
 # Load Pyxel runtime
-runtime="pyxel_2.3.18_python_3.11"
+runtime="pyxel_2.4.6_python_3.11"
 export pyxel_dir="$HOME/$runtime"
 mkdir -p "${pyxel_dir}"
 
